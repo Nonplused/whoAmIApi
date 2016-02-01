@@ -3,6 +3,7 @@ var express = require('express');
 
 //Express
 var app = express();
+app.set("trust proxy", true);
 var port = process.env.PORT || 5000;
 
 //Routes
